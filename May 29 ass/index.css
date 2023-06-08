@@ -1,0 +1,17 @@
+#fs{ 
+    width: 80%;
+    height: 400px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between; 
+    border: 10px solid black;
+    align-items: center; 
+}
+#fss{
+    width: 80%;
+    height: 400px;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 4fr);
+}
